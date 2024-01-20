@@ -34,9 +34,9 @@ function TechStack () {
       <img src="https://cdn.iconscout.com/icon/free/png-512/free-css-131-722685.png?f=webp&w=256" alt="CSS icon" />
       <img src="https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256" alt="JavaScript icon" />
       <img src="https://cdn.iconscout.com/icon/free/png-512/free-react-3-1175109.png?f=webp&w=256" alt="React icon" />
-      <img src="img/tailwind-css.ico" alt="Tailwind CSS icon"/>
+      <img src="../img/tailwind-css.ico" alt="Tailwind CSS icon"/>
       <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="Node.js icon"/>
-      <img src="img/mongodb.ico" alt="MongoDB icon"/>
+      <img src="../img/mongodb.ico" alt="MongoDB icon"/>
     </span>
   );
 }
