@@ -2,24 +2,42 @@ function HeroPage() {
   return (
     <>
       <Logo />
-      <section className="flex justify-center items-center w-[100%] h-[1000px]">
+      <section className="flex justify-center items-center w-[100%] h-[100vh]">
         <article className="flex  flex-col  gap-10 pl-16">
-          <h1 className="text-base-100 text-3xl font-extrabold">
+          <h1 className="text-[#312b2b] text-3xl font-extrabold">
             I'M TOTSAPOL PILUK
             <br />
             FRONTEND DEVELOPER{" "}
           </h1>
-          <p className="text-base-100 text-lg">
-            “I'm a <span className="text-rose-500">Frontend</span> developer who{" "}
-            <span className="text-green-400">loves</span> creating beautiful,
-            <br /> <span className="text-[#FFB400]">easy-to-use</span>
+          <p className="text-[#312b2b] text-lg font-medium">
+            “I'm a <span className=" underline decoration-[#F78888] decoration-[3px]">Frontend</span> developer who{" "}
+            <span className="underline decoration-[#F3D250] decoration-[3px]">loves</span> creating beautiful,
+            <br /> <span className="underline decoration-[#90CCF4] decoration-[3px]">easy-to-use</span>
             interfaces.
             <br /> Aim to create a website with simple navigation and an
             attractive design.
           </p>
+          <span className="flex items-center gap-4">
+            <h4>Tech Stack |  </h4>
+            <TechStack />
+          </span>
         </article>
       </section>
     </>
+  );
+}
+
+function TechStack () {
+  return(
+    <span className="w-[350px] h-[30px] flex gap-5 justify-center">
+      <img src="https://cdn.iconscout.com/icon/free/png-256/free-html-3628838-3030115.png" alt="HTML icon" />
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-css-131-722685.png?f=webp&w=256" alt="CSS icon" />
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-javascript-1-225993.png?f=webp&w=256" alt="JavaScript icon" />
+      <img src="https://cdn.iconscout.com/icon/free/png-512/free-react-3-1175109.png?f=webp&w=256" alt="React icon" />
+      <img src="img/tailwind-css.ico" alt="Tailwind CSS icon"/>
+      <img src="https://www.svgrepo.com/show/303360/nodejs-logo.svg" alt="Node.js icon"/>
+      <img src="img/mongodb.ico" alt="MongoDB icon"/>
+    </span>
   );
 }
 
@@ -28,7 +46,7 @@ function Logo() {
   return (
     <>
       {/* <span class="material-symbols-sharp fixed top-0 left-0 text-base-100 text-8xl">code</span> */}
-      <span className=" fixed top-10 left-8 text-base-100 text-6xl">
+      <span className=" fixed top-10 left-8 text-[#312b2b] text-6xl">
         {logo}
       </span>
     </>

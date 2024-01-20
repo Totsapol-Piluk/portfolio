@@ -14,8 +14,8 @@ function Navbar() {
 function Menubar({icon}) {
   return (
     <>
-      <label className="flex justify-center items-center rounded-lg w-[70px] h-[50px] bg-info hover:bg-[#FFB400] hover:text-[#39A056]">
-        <button class="material-symbols-sharp text-base-100 text-2xl hover:text-[#ffffff]">{icon}</button>
+      <label className="flex justify-center items-center rounded-full w-[50px] h-[50px] bg-[#F78888] hover:bg-[#90CCF4] hover:text-[#39A056]">
+        <button class="material-symbols-sharp text-[#ffffff] text-2xl hover:text-[#ffffff]">{icon}</button>
       </label>
     </>
   );
