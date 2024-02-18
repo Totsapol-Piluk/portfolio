@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <>
-      <div className="flex justify-between p-4 border-2 items-center bg-whiteborder-4 border-[#f9f9f9] w-[100%]">
+      <div className=" z-50 flex justify-between p-4 border-2 items-center bg-[#f9f9f9] drop-shadow-md w-[100%] fixed top-0">
         <div>
           <MenuBar />
         </div>
@@ -18,13 +18,13 @@ function MenuBar() {
     <>
       <ul className="flex gap-4">
         <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
-          <a href="#">Home</a>
+          <a href="#hero">Home</a>
         </li>
         <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
-          <a href="#">About</a>
+          <a href="#aboutme">About</a>
         </li>
         <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
-          <a href="#">Project</a>
+          <a href="#project">Project</a>
         </li>
         <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
           <a href="#">Contact</a>

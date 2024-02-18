@@ -1,6 +1,6 @@
 function HeroPage() {
   return (
-    <main className="bg-[#f9f9f9] border-2">
+    <main id="hero" className="bg-[#f9f9f9] pt-[100px]">
       <nav className="w-[50px]">
         {/* <Logo /> */}
       </nav>

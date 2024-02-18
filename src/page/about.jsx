@@ -1,8 +1,8 @@
 export function AboutMe() {
     return(
-        <section className="h-[60vh] flex flex-col items-center justify-center bg-[#f9f9f9] border-2">
-            <div className="flex flex-col justify-center items-center border-2">
-                <article className="m-[70px]"><h2 className="font-extrabold text-5xl">ABOUT ME</h2></article>
+        <section id="aboutme" className="h-[80vh] flex flex-col items-center justify-center bg-[#f9f9f9] pb-10">
+            <div className="flex flex-col justify-center items-center">
+                <article className="m-[70px]"><h2 className="font-extrabold text-5xl">ABOUT <span className="text-[#FFE01B]">ME</span></h2></article>
                 <article className="flex flex-col justify-center">
                  <div>
                      <div className="flex flex-col gap-1">
