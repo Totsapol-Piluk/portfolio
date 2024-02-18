@@ -1,3 +1,6 @@
+const text = "<br/>"
+const text2 = ")"
+
 function HeroPage() {
   return (
     <main id="hero" className="bg-[#f9f9f9] pt-[100px]">
@@ -9,15 +12,15 @@ function HeroPage() {
           <h1 className="text-[#312b2b] text-3xl font-extrabold">
             I'M TOTSAPOL PILUK
             <br />
-            <span className="text-[#FFE01B] test">BACKEND </span>DEVELOPER
+            <span className="text-[#FFE01B] test">WEB </span>DEVELOPER
           </h1>
           <p className="text-[#312b2b] text-lg font-medium">
-            “I'm a <span className=" underline decoration-[#F78888] decoration-[3px]">Backend</span> developer who{" "}
-            <span className=" underline decoration-[#F3D250] decoration-[3px]">loves</span> creating beautiful,
-            <br /> <span className="underline decoration-[#90CCF4] decoration-[3px]">easy-to-use </span>
-             interfaces.
-            <br /> Aim to create a website with simple navigation and an
-            attractive design.
+          <span className="font-bold text-indigo-500">Calling all explorers!</span> This is Totsapol, your friendly neighborhood dev <span className="text-rose-400">{text}</span>
+          <br/> Let's map exciting possibilities, line by line <span className="text-rose-400">{text}</span>
+          <br/> Together, we can build a digital world that's as vast and awe-inspiring as the universe itself   
+          <span className=" text-yellow-400"> {text2}</span>
+          <span className=" text-indigo-500">{text2}</span>
+          <span className=" text-green-500">;</span>
           </p>
           <span className="flex items-center gap-4">
             <h4>Tech Stack |  </h4>
