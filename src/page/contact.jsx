@@ -12,7 +12,7 @@ export function Contact() {
       </div>
 
       <div className="w-[33%] bg-[#ffe11bc8] flex justify-center items-center p-10">
-        <div className="w-[100%] h-[100%] bg-[#f9f9f9] flex flex-col justify-center items-center gap-16 dropCon">
+        <div className="w-[100%] h-[100%] bg-[#f9f9f9] flex flex-col justify-around items-center dropCon">
           <span className="flex flex-col justify-center items-center w-[300px]">
             <img src="/img/phone.ico" alt="phone icon" className="w-[100px]" />
             <p>tel 064-202-7847</p>
