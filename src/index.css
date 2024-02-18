@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 body {
-    background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f9f9f9, #f4f4f4, #eeeeee, #e2e2e2, #d5d5d5, #c9c9c9, #bdbdbd);
+    /* background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f9f9f9, #f4f4f4, #eeeeee, #e2e2e2, #d5d5d5, #c9c9c9, #bdbdbd); */
+    /* background-image: linear-gradient(to bottom, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff, #f9f9f9, #f4f4f4, #e2e2e2, #c9c9c9); */
+    background: #f9f9f9;
     height: 100vh;
 }

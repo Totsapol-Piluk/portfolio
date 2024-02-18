@@ -1,19 +1,21 @@
 function HeroPage() {
   return (
-    <>
-      <Logo />
-      <section className="flex justify-center items-center w-[100%] h-[100vh]">
+    <main className="bg-[#f9f9f9] border-2">
+      <nav className="w-[50px]">
+        {/* <Logo /> */}
+      </nav>
+      <section className="flex justify-center items-center w-[100%] h-[80vh]">
         <article className="flex  flex-col  gap-10 pl-16">
           <h1 className="text-[#312b2b] text-3xl font-extrabold">
             I'M TOTSAPOL PILUK
             <br />
-            FRONTEND DEVELOPER{" "}
+            <span className="text-[#FFE01B] test">BACKEND </span>DEVELOPER
           </h1>
           <p className="text-[#312b2b] text-lg font-medium">
-            “I'm a <span className=" underline decoration-[#F78888] decoration-[3px]">Frontend</span> developer who{" "}
-            <span className="underline decoration-[#F3D250] decoration-[3px]">loves</span> creating beautiful,
-            <br /> <span className="underline decoration-[#90CCF4] decoration-[3px]">easy-to-use</span>
-            interfaces.
+            “I'm a <span className=" underline decoration-[#F78888] decoration-[3px]">Backend</span> developer who{" "}
+            <span className=" underline decoration-[#F3D250] decoration-[3px]">loves</span> creating beautiful,
+            <br /> <span className="underline decoration-[#90CCF4] decoration-[3px]">easy-to-use </span>
+             interfaces.
             <br /> Aim to create a website with simple navigation and an
             attractive design.
           </p>
@@ -23,7 +25,7 @@ function HeroPage() {
           </span>
         </article>
       </section>
-    </>
+    </main>
   );
 }
 
@@ -46,8 +48,9 @@ function Logo() {
   return (
     <>
       {/* <span class="material-symbols-sharp fixed top-0 left-0 text-base-100 text-8xl">code</span> */}
-      <span className=" fixed top-10 left-8 text-[#312b2b] text-6xl">
-        {logo}
+      <span className="text-[#312b2b] text-6xl w-[50px]">
+        {/* {logo} */}
+        <img src="https://cdn3.iconfinder.com/data/icons/ikooni-outline-seo-web/128/free-35-512.png" alt="logo" />
       </span>
     </>
   );

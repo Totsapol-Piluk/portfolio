@@ -1,23 +1,64 @@
 function Navbar() {
   return (
     <>
-      <section className="flex flex-col justify-evenly fixed right-6 top-[25%] h-[50%]">
-        <Menubar icon='home'/>
-        <Menubar icon='person'/>
-        <Menubar icon='business_center'/>
-        <Menubar icon='mail'/>
-      </section>
+      <div className="flex justify-between p-4 border-2 items-center bg-whiteborder-4 border-[#f9f9f9] w-[100%]">
+        <div>
+          <MenuBar />
+        </div>
+        <div>
+          <RightBar />
+        </div>
+      </div>
     </>
   );
 }
 
-function Menubar({icon}) {
+function MenuBar() {
   return (
     <>
-      <label className="flex justify-center items-center rounded-full w-[50px] h-[50px] bg-[#F78888] hover:bg-[#90CCF4] hover:text-[#39A056]">
-        <button class="material-symbols-sharp text-[#ffffff] text-2xl hover:text-[#ffffff]">{icon}</button>
-      </label>
+      <ul className="flex gap-4">
+        <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
+          <a href="#">Home</a>
+        </li>
+        <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
+          <a href="#">About</a>
+        </li>
+        <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
+          <a href="#">Project</a>
+        </li>
+        <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
     </>
   );
 }
+
+function RightBar() {
+  return (
+    <>
+      <ul className="flex items-center gap-4">
+        <li>
+          <p>Tel-064-202-7847</p>
+        </li>
+        <li>
+          <CVdowloadButton />
+        </li>
+      </ul>
+    </>
+  );
+}
+
+function CVdowloadButton() {
+  return (
+    <>
+      <a href="/fileDowload/cv.pdf" download="cv.pdf">
+        <div className="w-[125px] p-2 rounded-full bg-[#FFE01B] border-[1px] border-[#292929] dropSD">
+          <p className=" text-center">CV dowload</p>
+        </div>
+      </a>
+    </>
+  );
+}
+
 export default Navbar;
