@@ -27,7 +27,7 @@ function MenuBar() {
           <a href="#project">Project</a>
         </li>
         <li className="border-4 border-[#f9f9f9] hover:border-4 hover:border-[#f9f9f9] hover:border-b-indigo-500">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
     </>
