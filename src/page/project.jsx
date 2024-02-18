@@ -6,7 +6,7 @@ export function Myproject() {
         <span className="w-[280px] h-[380px] flex flex-col items-center">
           <a href="https://loglife.guru/" target="_blank" className="dropCSD drop-shadow-3xl">
             <img
-              src="../../public/img/LOGLIFE.png"
+              src="/img/LOGLIFE.png"
               alt="loglife website"
               className=" rounded-t-lg"
             />
