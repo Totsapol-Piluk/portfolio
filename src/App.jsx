@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./page/Navbar";
 import HeroPage from "./page/hero";
-import { AboutMe } from "./page/aboutme";
+import { About } from "./page/about";
 import { Myproject } from "./page/project";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
       <Navbar />
       <HeroPage />
-      <AboutMe />
+      <About />
       <Myproject />
     </>
   );
