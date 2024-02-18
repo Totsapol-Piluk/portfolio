@@ -52,7 +52,7 @@ function RightBar() {
 function CVdowloadButton() {
   return (
     <>
-      <a href="/fileDowload/cv.pdf" download="cv.pdf">
+      <a href="/fileDowload/totsapol_piluk.pdf" download="totspol_piluk.pdf">
         <div className="w-[125px] p-2 rounded-full bg-[#FFE01B] border-[1px] border-[#292929] dropSD">
           <p className=" text-center">CV dowload</p>
         </div>
